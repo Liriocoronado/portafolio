@@ -1,0 +1,846 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body .nav{
+    background: #4E3A58;
+    height: 227px;
+}
+
+body .nav .nav_container > a > img {
+    width: 72px;
+}
+
+body .nav .nav_container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex
+}
+
+body .nav .nav_container .nav_label {
+    display: none;
+}
+
+body .nav .nav_container .nav_input {
+    display: none;
+}
+
+body .nav .nav_container .nav_menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 138px;
+}
+
+body .nav .nav_container .nav_menu .Items {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+body .parteuno > img{
+    width: 100%;
+}
+
+body .ilustraciones {
+    align-items: center;
+    justify-content: center;
+    padding: 53px 57px;
+    display: flex;
+    gap: 49px;
+}
+
+body .ilustraciones > img {
+    width: 845px;
+    height: auto;
+}
+
+body .ilustraciones .der {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 62px;
+}
+
+body .ilustraciones .der .encabezado {
+    background: #95D7CA;
+    padding: 46px 250px;
+}
+
+body .ilustraciones .der .encabezado > h1 {
+    font-size: 60px;
+    color: #4E3A58;
+}
+
+body .ilustraciones .der > img {
+    width: 911px;
+}
+
+body .partedos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+}
+
+body .partedos > img {
+    width: 100%;
+}
+
+body .ultimo {
+    display: flex;
+    padding: 52px 59px;
+    justify-content: center;
+    align-items: center;
+}
+
+body .ultimo > img {
+    width: 1202px;
+    height: auto;
+}
+
+body .ultimo .der {
+    background: #95D7CA;
+    padding: 59px 60px;
+}
+
+body .ultimo .der > h1 {
+    font-size: 60px;
+    color: #4E3A58;
+    text-align: center;
+}
+
+body .rediseñologo {
+    background: #4E3A58;
+    padding: 46px 566px;
+}
+
+body .rediseñologo > h2 {
+    font-size: 60px;
+    color: #ffff;
+    text-align: center;
+}
+
+body .rediseño {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 106px 83px;
+}
+
+body .rediseño .donne {
+    display: flex;
+    gap: 168px;
+    align-items: center;
+}
+
+body .rediseño .donne > img {
+    width: 613px;
+    height: auto;
+}
+
+body .rediseño .donne .der{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 55px;
+}
+
+body .rediseño .donne .der .logos {
+    display: flex;
+    gap: 27px;
+}
+
+body .rediseño .donne .der .logos .Anterior > img {
+    width: 405px;
+    height: auto;
+}
+
+body .rediseño .donne .der .logos .cambio > img {
+    width: 544px;
+    height: auto;
+}
+
+body .rediseño .donne .der .texto {
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    gap: 27px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body .rediseño .dosdonne {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+body .rediseño .dosdonne .bolsa > img {
+    width: 1170px;
+    height: auto;
+}
+
+body .rediseño .dosdonne .dos > img {
+    width: 487px;
+    height: auto;
+}
+
+body .rediseño .tablet {
+    display: none;
+}
+
+body .etiqueta {
+    background: #4E3A58;
+    padding: 46px 566px;
+}
+
+body .etiqueta > h2 {
+    font-size: 60px;
+    color: #ffff;
+    text-align: center;
+}
+
+body .MERMELAND {
+    display: flex;
+    padding: 52px 49px;
+    gap: 80px;
+    align-items: center;
+}
+
+body .MERMELAND > img {
+    width: 375px;
+    height: auto;
+}
+
+body .MERMELAND .informacion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+body .MERMELAND .informacion > h3 {
+    font-size: 60px;
+    color: #4E3A58;
+}
+
+body .MERMELAND .informacion > p {
+    font-size: 24px;
+}
+
+body .MERMELAND .etiquetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 64px;
+}
+
+body .MERMELAND .etiquetas > img {
+    width: 410px;
+    height: auto;
+}
+
+body .dosmerme {
+    display: flex;
+    padding: 56px 94px;
+    align-items: center;
+    gap: 10px;
+}
+
+body .dosmerme .frasco .colores {
+    display: none;
+}
+
+body .dosmerme .frasco > img {
+    width: 664px;
+    height: auto;
+}
+
+body .dosmerme .gran > img {
+    width: 1068px;
+    height: auto;
+}
+
+body .finalcor {
+    background: #D9D9D9;
+    padding: 42px 82px;
+}
+
+body .finalcor .coruno {
+    display: flex;
+    gap: 85px;
+}
+
+body .finalcor .coruno > img {
+    width: 965px;
+    height: auto;
+}
+
+body .finalcor .coruno .descripcion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 17px;
+    align-items: center;
+}
+
+body .finalcor .coruno .descripcion > img {
+    width: 493px;
+    height: auto;
+}
+
+body .finalcor .coruno .descripcion > p {
+    font-size: 24px;
+    text-align: center;
+}
+
+body .finalcor .cordos {
+    display: flex;
+    gap: 94px;
+    align-items: center;
+}
+
+body .finalcor .cordos .uno {
+    display: flex;
+    gap: 98px;
+}
+
+body .finalcor .cordos .uno .volante > img {
+    width: 609px;
+    height: auto;
+}
+
+body .finalcor .cordos .uno .logodos > img {
+    width: 401px;
+    height: auto;
+}
+
+body .finalcor .cordos .foto > img {
+    width: 477px;
+    height: auto;
+}
+
+body .final {
+    background: #4E3A58;
+    flex-direction: column;
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+    padding: 59px 829px;
+}
+
+body .final .titulo > h5 {
+    font-size: 24px;
+    color: #ffff;
+}
+
+body .final .iconos {
+    display: flex;
+    gap: 60px;
+}
+
+body .final .iconos > a > img {
+    width: 49px;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 1366px) {
+    body .Menuinicio {
+        display: flex;
+        width: 1366px;
+        gap: 420px;
+        justify-content: center;
+    }
+    body .ilustraciones {
+        padding: 61px 45px;
+    }
+    body .ilustraciones > img {
+        width: 598px;
+        height: auto;
+    }
+    body .ilustraciones .der > img {
+        width: 645px;
+        height: auto;
+    }
+    body .ilustraciones .der .encabezado {
+        padding: 15px 128px;
+    }
+
+    body .ultimo {
+        padding: 67px 0px;
+    }
+    body .ultimo > img {
+        width: 780px;
+        height: auto;
+    }
+    body .ultimo .der {
+        padding: 17px 50px;
+    }
+    body .rediseñologo {
+        padding: 46px 410px;
+    }
+    body .rediseño {
+        padding: 63px 66px;
+    }
+    body .rediseño .donne {
+        gap: 36px;
+    }
+    body .rediseño .donne > img {
+        width: 498px;
+        height: auto;
+    }
+    body .rediseño .donne .der .logos .Anterior > img {
+        width: 288px;
+        height: auto;
+    }
+    body .rediseño .donne .der .logos .cambio > img {
+        width: 387px;
+        height: auto;
+    }
+    body .rediseño .dosdonne {
+        gap: 65px;
+    }
+    body .rediseño .dosdonne .bolsa > img {
+        width: 830px;
+        height: auto;
+    }
+    body .rediseño .dosdonne .dos > img {
+        width: 336px;
+        height: auto;
+    }
+    body .etiqueta {
+        padding: 38px 360px;
+    }
+    body .MERMELAND {
+        padding: 44px 61px;
+        gap: 57px;
+    }
+    body .MERMELAND > img {
+        width: 269px;
+        height: auto;
+    }
+    body .MERMELAND .etiquetas > img {
+        width: 294px;
+    }
+    body .dosmerme {
+        padding: 0px 71px 71px 71px;
+        gap: 32px;
+    }
+    body .dosmerme .frasco > img {
+        width: 456px;
+        height: auto;
+    }
+    body .dosmerme .gran > img {
+        width: 733px;
+        height: auto;
+    }
+    body .finalcor {
+        padding: 85px 49px;
+    }
+    body .finalcor .coruno {
+        gap: 27px;
+    }
+    body .finalcor .cordos .uno {
+        display: flex;
+        gap: 27px;
+    }
+    body .finalcor .coruno > img {
+        width: 736px;
+        height: auto;
+    }
+    body .finalcor .coruno .descripcion > img {
+        width: 376px;
+        height: auto;
+    }
+    body .finalcor .cordos {
+        gap: 61px;
+    }
+    body .finalcor .cordos .uno .volante > img {
+        width: 466px;
+        height: auto;
+    }
+    body .finalcor .cordos .uno .logodos > img {
+        width: 285px;
+        height: auto;
+    }
+    body .finalcor .cordos .foto > img {
+        width: 394px;
+        height: auto;
+    }
+    body .final {
+        display: flex;
+        width: 1366px;
+        padding: 70px 0px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    body .nav{
+        height: 136px;
+    }
+    body .nav .nav_container .nav_label {
+        display: block;
+        cursor: pointer;
+    }
+    body .nav .nav_container .nav_menu .Items {
+        background: #95D7CA;
+        color: #4E3A58
+    }
+    body .nav .nav_container .nav_menu {
+        position: fixed;
+        gap: 22px;
+        top: 60px;
+        bottom: 0;
+        background: #95D7CA;
+        width: 230px;
+        height: 280px;
+        left: 58%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: inset(0 0 100% 100%);
+        transition: clip-path .5s ease-in-out;
+    }
+    body .nav .nav_container .nav_input:checked + .nav_menu {
+        clip-path: inset(0 0 0 0);
+    }
+    body .ilustraciones {
+        gap: 10px;
+        padding: 18px 0px;
+    }
+    body .ilustraciones > img {
+        width: 388px;
+    }
+    body .ilustraciones .der {
+        gap: 17px;
+    }
+    body .ilustraciones .der > img {
+        width: 432px;
+    }
+    body .ilustraciones .der .encabezado {
+        padding: 14px 110px;
+    }
+    body .ilustraciones .der .encabezado > h1 {
+        font-size: 32px;
+    }
+    body .partedos {
+        gap: 10px;
+    }
+    body .ultimo {
+        padding: 31px 37px;
+    }
+    body .ultimo > img {
+        width: 430px;
+    }
+    body .ultimo .der {
+        padding: 29px 44px;
+    }
+    body .ultimo .der > h1 {
+        font-size: 32px;
+    }
+    body .rediseñologo {
+        padding: 30px 267px;
+    }
+    
+    body .rediseñologo > h2 {
+        font-size: 32px;
+    }
+    body .rediseño .donne > img {
+        display: none;
+    }
+    body .rediseño .donne .der {
+        gap: 30px;
+    }
+    body .rediseño .donne .der .logos {
+        align-items: center;
+    }
+    body .rediseño .dosdonne {
+        display: none;
+    }
+    body .rediseño .tablet {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+    body .rediseño .tablet .bolsa > img {
+        width: 100%;
+        object-fit: cover;
+    }
+    body .rediseño .tablet .abajo {
+        align-items: center;
+        display: flex;
+    }
+    body .rediseño .tablet .abajo > img {
+        width: 490px;
+        height: auto;
+    }
+    body .rediseño .tablet .abajo .dos > img {
+        width: 330px;
+        height: auto;
+    }
+    body .etiqueta {
+        padding: 30px 30px;
+    }
+    
+    body .etiqueta > h2 {
+        font-size: 32px;
+    }
+    body .MERMELAND {
+        padding: 52px 60px;
+    }
+    body .MERMELAND > img {
+        display: none;
+    }
+    body .dosmerme {
+        flex-direction: column;
+    }
+    
+    body .dosmerme .frasco {
+        display: flex;
+        gap: 32px;
+    }
+    body .dosmerme .frasco > img {
+        height: 477px;
+        width: auto;
+    }
+    body .dosmerme .frasco .colores {
+        display: flex;
+        height: 477px;
+        width: auto;
+    }
+    body .dosmerme .gran {
+        padding: 0%;
+    } 
+    body .finalcor {
+        width: 830px;
+    }
+    body .finalcor .coruno {
+        flex-direction: column;
+        gap: 94px;
+    }
+    body .finalcor .cordos {
+        flex-direction: column;
+    }
+    body .finalcor .cordos .uno {
+        display: flex;
+        gap: 25px;
+    }
+    body .finalcor .cordos .uno .volante > img {
+        width: auto;
+        height: 409px;
+    }
+    body .finalcor .cordos .uno .logodos > img {
+        width: auto;
+        height: 409px;
+    }
+    body .finalcor .cordos .foto > img {
+        width: 692px;
+        height: auto;
+    }
+    body .final {
+        width: 830px;
+        gap: 33px;
+    }
+    body .final .titulo > h5 {
+        font-size: 21px;
+    }   
+}
+
+@media only screen and (max-width: 360px) {
+    body .nav{
+        height: 94px;
+    }
+    body .nav .nav_container > a > img {
+        width: 49px;
+    }
+    body .nav .nav_container .nav_menu .Items {
+        font-size: 15px;
+    }
+    body .nav .nav_container .nav_menu {
+        width: 132px;
+        height: 219px;
+        top: 60px;
+        left: 53%;
+    }
+    body .parteuno > img {
+        height: 277px;
+        object-fit: cover;
+        width: 360px;  
+    }
+    body .ilustraciones {
+        gap: 13px;
+        padding: 13px 0px;
+        flex-direction: column-reverse;
+    }
+    body .ilustraciones > img {
+        width: 360px;
+    }
+    body .ilustraciones .der {
+        gap: 17px;
+        padding: 0px;
+    }
+    body .ilustraciones .der > img {
+        width: 360px;
+    }
+    body .ilustraciones .der .encabezado > h1 {
+        font-size: 21px;
+    }
+    body .partedos {
+        gap: 13px;
+    }
+    body .ultimo {
+        gap: 13px;
+        flex-direction: column-reverse;
+        padding: 13px 0px;
+    }
+    body .ultimo > img {
+        width: 310px;
+    }
+    body .ultimo .der {
+        padding: 17px 21.5px;
+    }
+    body .ultimo .der > h1 {
+        font-size: 21px;
+    }
+    body .rediseñologo {
+        padding: 17px 20px;
+    }
+    
+    body .rediseñologo > h2 {
+        font-size: 21px;
+    }
+    body .rediseño {
+        padding: 13px 17px;
+    }
+    body .rediseño .donne .der .logos {
+        gap: 9px;
+    }
+    body .rediseño .donne .der .logos .Anterior > img {
+        height: 90px;
+        width: auto;
+    }
+    body .rediseño .donne .der .logos .cambio > img {
+        height: 65px;
+        width: auto;
+    }
+    body .rediseño .donne .der .texto {
+        font-size: 15px;
+    }
+    body .rediseño .tablet .bolsa {
+        width: 360px;
+    }
+    body .rediseño .tablet .abajo > img {
+        width: 216px;
+        height: auto;
+    }
+    body .rediseño .tablet .abajo .dos > img {
+        width: 146px;
+        height: auto;
+    }
+    body .etiqueta {
+        padding: 17px 20px;
+    }
+    
+    body .etiqueta > h2 {
+        font-size: 21px;
+    }
+    body .MERMELAND {
+        padding: 17px 0px;
+        flex-direction: column;
+    }
+    body .MERMELAND .informacion > h3 {
+        font-size: 24px;
+    }
+    body .MERMELAND .informacion > p {
+        font-size: 15px;
+        width: 304px;
+    }
+    body .dosmerme {
+        gap: 0;
+        padding: 17px 0px;
+    }
+    body .dosmerme .frasco {
+        gap: 0;
+    } 
+    body .dosmerme .frasco .colores {
+        height: auto;
+    }
+    body .dosmerme .frasco .colores > img {
+        object-fit: cover;
+        height: 249px;
+    }
+    body .dosmerme .frasco > img {
+        height: 258px;
+        object-fit: cover;
+    }
+    body .dosmerme .gran > img {
+        width: 360px;
+        height: auto;
+    }
+
+    body .finalcor {
+        width: 360px;
+        padding: 17px 0;
+    }
+    body .finalcor .coruno {
+        gap: 28px;
+    }
+    body .finalcor .coruno > img {
+        width: 320px;
+        height: auto;
+        padding: 0 20px;
+    }
+    body .finalcor .coruno .descripcion {
+        padding: 42px 40px;
+        gap: 28px;
+    }
+    body .finalcor .coruno .descripcion > img {
+        width: auto;
+        height: 157px;
+    }
+    body .finalcor .coruno .descripcion > p {
+        font-size: 15px;
+    }
+    body .finalcor .cordos .uno {
+        flex-direction: column;
+        gap: 25px;
+    }
+    body .finalcor .cordos .uno .volante > img {
+        width: auto;
+        padding: 0 18px;
+        height: 281px;
+    }
+    body .finalcor .cordos .uno .logodos > img {
+        width: auto;
+        padding: 0 90px;
+        height: 255px;
+    }
+    body .finalcor .cordos .foto > img {
+        width: 360px;
+        height: auto;
+    }
+
+
+    body .final {
+        width: 360px;
+        padding: 17px 0px;
+    }
+    body .final .titulo > h5 {
+        font-size: 16px;
+    }
+    body .final .iconos {
+        gap: 20px;
+    }
+    body .final .iconos > a > img {
+        width: 30px;
+    }
+}

@@ -1,0 +1,624 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4E3A58;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body .nav{
+    background: #4E3A58;
+    height: 227px;
+}
+
+body .nav .nav_container > a > img {
+    width: 72px;
+}
+
+body .nav .nav_container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex
+}
+
+body .nav .nav_container .nav_label {
+    display: none;
+}
+
+body .nav .nav_container .nav_input {
+    display: none;
+}
+
+body .nav .nav_container .nav_menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 138px;
+}
+
+body .nav .nav_container .nav_menu .Items {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+body .inicio {
+    margin: 260px;
+    margin-top: 189px;
+}
+
+body .inicio .logoprin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body .inicio .logoprin > img {
+    width: 236px;
+}
+
+body .inicio .logoprin > h1 { 
+    font-size: 60px;
+    color: #95D7CA;
+}
+
+body .inicio .abajoinicio {
+    margin: 61px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+}
+
+body .inicio .abajoinicio > span {
+    border: 2px solid #95D7CA;
+    width: 30%;
+}
+
+body .inicio .abajoinicio > p {
+    display: flex;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+body .iniciobajo {
+    display: none;
+    gap: 41px;
+    padding: 50px 119px 179px 119px;
+    justify-content: center;
+    align-items: center;
+}
+
+body .iniciobajo .logoprin > img {
+    width: 227px;
+}
+
+body .iniciobajo .tex > h1 {
+    font-size: 60px;
+    color: #95D7CA;
+}
+body .iniciobajo .tex > p {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+body .precentacion {
+    background: #95D7CA;
+    margin: 12%;
+    gap: 97px;
+    display: flex;
+    align-items: center;
+    width: 1451px;
+    height: 687px;
+    justify-content: center;
+}
+
+body .precentacion .imagen > img {
+    object-fit: cover;
+    display: flex;
+    background-color: #95D7CA;
+    width: 636px;
+    height: 687px;
+}
+
+body .precentacion .texto {
+    background: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    width: 621px;
+}
+
+body .precentacion .texto > p {
+    background-color: #95D7CA;
+    font-size: 24px;
+    text-align: center;
+}
+
+body .precentacion .texto > a {
+    background: #95D7CA;
+}
+
+body .precentacion .texto > a > button {
+    background: #4E3A58;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 217px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+body .labores {
+    margin: 106px 234px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+body .labores .trabajos1 {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+body .labores .trabajos1 .ilu > img {
+    width: 725 px;
+    object-fit: cover;
+    height: 724px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+body .labores .trabajos1 .inf1 {
+    background: #95D7CA;
+    display: flex;
+    gap: 27px;
+    align-items: center;
+    flex-direction: column;
+    padding: 74px 20px;
+}
+
+body .labores .trabajos1 .inf1 .nombre {
+    background: #95D7CA;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    justify-content: center;
+}
+
+body .labores .trabajos1 .inf1 .nombre > h1 {
+    font-size: 60px;
+    width: 680px;
+    color: #ffffff;
+    text-align: center;
+    background: #95D7CA;
+}
+
+body .labores .trabajos1 .inf1 .nombre > span {
+    background: #95D7CA;
+    border: 3px solid #ffffff;
+    display: flex;
+    width: 60%;
+}
+
+body .labores .trabajos1 .inf1 .boton {
+    background: #95D7CA;
+}
+
+body .labores .trabajos1 .inf1 .boton > a > button {
+    background: #4E3A58;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 217px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+body .labores .trabajos2 {
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 17px;
+}
+
+body .labores .trabajos2 .ilu > img {
+    width: 725px;
+    height: 724px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+body .labores .trabajos2 .inf1 {
+    background: #95D7CA;
+    display: flex;
+    gap: 27px;
+    align-items: center;
+    flex-direction: column;
+    padding: 74px 20px;
+}
+
+body .labores .trabajos2 .inf1 .nombre {
+    background: #95D7CA;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 17px;
+    justify-content: center;
+}
+
+body .labores .trabajos2 .inf1 .nombre > h1 {
+    font-size: 60px;
+    width: 680px;
+    color: #ffffff;
+    text-align: center;
+    background: #95D7CA;
+}
+
+body .labores .trabajos2 .inf1 .nombre > span {
+    background: #95D7CA;
+    border: 3px solid #ffffff;
+    display: flex;
+    width: 60%;
+}
+
+body .labores .trabajos2 .inf1 .boton {
+    background: #95D7CA;
+}
+
+body .labores .trabajos2 .inf1 .boton > a > button {
+    background: #4E3A58;
+    border-radius: 10px;
+    color: #ffffff;
+    width: 217px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 21px;
+}
+
+body .final {
+    display: flex;
+    margin: 165px 268px;
+    justify-content: center;
+    gap: 834px;
+}
+
+body .final .izq {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    font-size: 21px;
+}
+
+body .final .der {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 43px;
+}
+
+body .final .der > p {
+    font-size: 21px;
+    color: #ffffff;
+}
+
+body .final .der .iconos {
+    display: flex;
+    gap: 60px;
+}
+
+body .final .iconos > a > img {
+    width: 49px;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 1366px) {
+    body .Menuinicio {
+        display: flex;
+        object-fit: cover;
+        gap: 420px;
+        margin: 70px 100px;
+        padding: 0%;
+    }
+
+    body .inicio {
+        margin-top: 110px;
+        margin: 183px;
+    }
+    body .precentacion {
+        display: flex;
+        justify-content: center;
+        margin: 0%;
+        width: 100%;
+        gap: 0;
+    }
+    body .labores {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 95px;
+        margin: 95px 109px;
+    }
+    body .labores .trabajos1 .ilu > img  {
+        width: 568.22px;
+        height: 568.91px;
+    }
+    body .labores .trabajos1 .inf1 {
+        padding: 70px;
+        width: 564px;
+        gap: 21px;
+        height: 304;
+    }
+    body .labores .trabajos1 .inf1 .nombre > h1 {
+        width: 409px;
+        margin: 0%;
+    }
+    body .labores .trabajos2 .ilu > img  {
+        width: 568px;
+        height: 568px;
+    }
+    body .labores .trabajos2 .inf1 {
+        padding: 70px;
+        width: 564px;
+        gap: 21px;
+        height: 304;
+    }
+    body .labores .trabajos2 .inf1 .nombre > h1 {
+        width: 409px;
+        margin: 0%;
+    }
+    body .labores .trabajos3 .ilu > img  {
+        width: 568.22px;
+        height: 568.91px;
+    }
+    body .labores .trabajos3 .inf1 {
+        padding: 70px;
+        width: 409px;
+        gap: 21px;
+        height: 304;
+    }
+    body .labores .trabajos3 .inf1 .nombre > h1 {
+        width: 409px;
+        margin: 0%;
+    }
+    body .final {
+        margin: 89px 122px;
+        gap: 563px;
+    }
+    body .final .izq {
+        gap: 31px;   
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    body .nav{
+        height: 136px;
+    }
+    body .nav .nav_container .nav_label {
+        display: block;
+        cursor: pointer;
+    }
+    body .nav .nav_container .nav_menu .Items {
+        background: #95D7CA;
+        color: #4E3A58
+    }
+    body .nav .nav_container .nav_menu {
+        position: fixed;
+        gap: 22px;
+        top: 60px;
+        bottom: 0;
+        background: #95D7CA;
+        width: 230px;
+        height: 280px;
+        left: 58%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: inset(0 0 100% 100%);
+        transition: clip-path .5s ease-in-out;
+    }
+    body .nav .nav_container .nav_input:checked + .nav_menu {
+        clip-path: inset(0 0 0 0);
+    }
+    body .inicio {
+        display: none;
+    }
+    body .iniciobajo {
+        display: flex;
+    }
+    body .precentacion {
+        object-fit: cover;
+    }
+    body .precentacion .imagen > img {
+        width: 492px;
+        height: auto;
+    }
+    body .precentacion .texto > p {
+        font-size: 20px;
+        width: 300px; 
+    }
+    body .labores .trabajos1 {
+        flex-direction: column;
+        gap: 0px;
+    }
+    body .labores .trabajos1 .inf1 {
+        flex-direction: row;
+        padding: 33px 35px;
+        width: 568px;
+        gap: 0px;
+    }
+    body .labores .trabajos1 .inf1 .nombre {
+        justify-content: left;
+        width: 351px;
+    }
+    body .labores .trabajos1 .inf1 .nombre > h1 {
+        font-size: 32px;
+        text-align: left;
+    }
+    body .labores .trabajos1 .inf1 .boton > a > button {
+        width: 145px;
+    }
+    body .labores .trabajos2 {
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    body .labores .trabajos2 .inf1 {
+        flex-direction: row;
+        padding: 33px 35px;
+        width: 568px;
+        gap: 0px;
+        
+    }
+    body .labores .trabajos2 .inf1 .nombre {
+        justify-content: left;
+        width: 351px;
+    }
+    body .labores .trabajos2 .inf1 .nombre > h1 {
+        font-size: 32px;
+        text-align: left;
+    }
+    body .labores .trabajos2 .inf1 .boton > a > button {
+        width: 145px;
+    }
+    body .final {
+        gap: 216PX;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body .nav{
+        height: 94px;
+    }
+    body .nav .nav_container > a > img {
+        width: 49px;
+    }
+    body .nav .nav_container .nav_menu .Items {
+        font-size: 15px;
+    }
+    body .nav .nav_container .nav_menu {
+        width: 132px;
+        height: 219px;
+        top: 60px;
+        left: 53%;
+    }
+    body .iniciobajo {
+        flex-direction: column;
+        gap: 7px;
+    }
+    body .iniciobajo .tex {
+        display: flex;
+        text-align: center;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+    body .iniciobajo .tex > h1 {
+        width: 209px;
+        font-size: 40px;
+    }
+    body .iniciobajo .tex > p {
+        width: 209px;
+        font-size: 16px;
+    }
+    body .precentacion {
+        object-fit: contain;
+        flex-direction: column;
+        gap: 41px;
+    }
+    body .precentacion .imagen > img {
+        width: 286px;
+        height: auto;
+    }
+    body .precentacion .texto {
+        font-size: 16px;
+        width: 289px; 
+        gap: 41px;
+    }
+    body .labores {
+        object-fit: contain;
+    }
+    body .labores .trabajos1 .ilu > img {
+        width: 360px;
+        height: 362px;
+    }
+    body .labores .trabajos1 .inf1 {
+        flex-direction: row;
+        width: 360px;
+        padding: 21px 35px;
+        gap: 17px;
+        object-fit: contain;
+    }
+    body .labores .trabajos1 .inf1 .nombre {
+        width: 181px;
+        gap: 7px;
+    }
+    body .labores .trabajos1 .inf1 .nombre > span {
+        border: 2px solid #ffffff;
+        width: 126px;
+    }
+    body .labores .trabajos1 .inf1 .nombre > h1 {
+        font-size: 20px;
+    }
+    body .labores .trabajos1 .inf1 .boton > a > button {
+        width: 90px;
+        font-size: 10px;
+    }
+    body .labores .trabajos2 .ilu > img {
+        width: 360px;
+        height: 362px;
+    }
+    body .labores .trabajos2 .inf1 {
+        flex-direction: row;
+        width: 360px;
+        padding: 21px 35px;
+        gap: 17px;
+        object-fit: contain;
+    }
+    body .labores .trabajos2 .inf1 .nombre {
+        width: 181px;
+        gap: 7px;
+    }
+    body .labores .trabajos2 .inf1 .nombre > h1 {
+        font-size: 20px;
+    }
+    body .labores .trabajos2 .inf1 .nombre > span {
+        border: 2px solid #ffffff;
+        width: 126px;
+    }
+    body .labores .trabajos2 .inf1 .boton > a > button {
+        width: 90px;
+        font-size: 10px;
+    }
+    body .final {
+        flex-direction: column;
+        gap: 42px;
+        align-items: center;
+    }
+    body .final .izq {
+        align-items: center;
+        gap: 7px;
+    }
+    body .final .der {
+        gap: 11px;
+    }
+    body .final .der > p {
+        font-size: 12px;
+    }
+    body .final .der .iconos {
+        gap: 20px;
+    }
+    body .final .der .iconos > a > img {
+        font-size: 30px;
+    }
+}

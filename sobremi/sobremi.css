@@ -1,0 +1,417 @@
+/*sobre mi*/
+* {
+    font-family: Arial, Helvetica, sans-serif;   
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+body .nav{
+    background: #4E3A58;
+    height: 227px;
+}
+
+body .nav .nav_container > a > img {
+    width: 72px;
+}
+
+body .nav .nav_container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex
+}
+
+body .nav .nav_container .nav_label {
+    display: none;
+}
+
+body .nav .nav_container .nav_input {
+    display: none;
+}
+
+body .nav .nav_container .nav_menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 138px;
+}
+
+body .nav .nav_container .nav_menu .Items {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+body .quiensoy {
+    padding: 37px 173px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+body .quiensoy .imagen > img {
+    display: flex;
+    width: 704px;
+}
+
+body .quiensoy .arriba {
+    display: flex;
+    align-items: center;
+    gap: 104px;
+}
+
+body .quiensoy .arriba > h1 {
+    font-size: 60px;
+    color: #4E3A58;
+}
+
+body .quiensoy .arriba > img {
+    width: 226px;
+    border-radius: 113px;
+}
+body .quiensoy .der {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 49px;
+}
+
+body .quiensoy .der .texto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+body .quiensoy .der .texto > p {
+    font-size: 24px;
+    text-align: center;
+}
+
+body .habilidades {
+    background: #95D7CA;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 90px 341px;
+    gap: 71px;
+}
+
+body .habilidades .titulo {
+    font-size: 45px;
+}
+
+body .habilidades .habi {
+    display: flex;
+    gap: 156px;
+}
+
+body .habilidades .habi .izq {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body .habilidades .habi .izq .valor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 23px;
+}
+
+body .habilidades .habi .izq .valor > h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+body .habilidades .habi .izq .valor > p {
+    font-size: 24px;
+    text-align: center;
+}
+
+body .habilidades .habi .der {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+body .habilidades .habi .der .valor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 23px;
+}
+
+body .habilidades .habi .der .valor > h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+body .habilidades .habi .der .valor > p {
+    font-size: 24px;
+    text-align: center;
+}
+
+body .Softwares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 115px 283px;
+    gap: 424px;
+}
+
+body .Softwares .titulo > h3 {
+    font-size: 60px;
+}
+
+body .Softwares .programas {
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+
+body .Softwares .programas .nombres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 67px;
+}
+
+body .Softwares .programas .nombres > h4 {
+    font-size: 24px;
+}
+
+body .Softwares .programas .niveles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+body .Softwares .programas .niveles .nivel {
+    display: flex;
+    gap: 15px;
+}
+
+body .Softwares .programas .niveles .nivel > span {
+    border: 20px solid #4E3A58;
+    height: 55px;
+}
+
+body .final {
+    background: #4E3A58;
+    flex-direction: column;
+    display: flex;
+    gap: 23px;
+    justify-content: center;
+    align-items: center;
+    padding: 59px 829px;
+}
+
+body .final .titulo > h5 {
+    font-size: 24px;
+    color: #ffff;
+}
+
+body .final .iconos {
+    display: flex;
+    gap: 60px;
+}
+
+body .final .iconos > a > img {
+    width: 49px;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 1366px) {
+    body .Menuinicio {
+        display: flex;
+        object-fit: cover;
+        width: 1366px;
+        gap: 420px;
+        justify-content: center;
+    }
+
+    body .quiensoy {
+        padding: 36px 60px 36px 0px;
+    }
+
+    body .quiensoy .arriba {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 31px;
+    }
+
+    body .habilidades {
+        padding: 90px 64px;
+    }
+
+    body .Softwares {
+        padding: 171px 98px;
+        gap: 220px;
+    }
+    body .Softwares .programas .niveles .nivel > span {
+        border: 19px solid #4E3A58;
+        height: 50px;
+    }
+    body .final {
+        display: flex;
+        width: 1366px;
+        padding: 70px 0px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    body .nav{
+        height: 136px;
+    }
+    body .nav .nav_container .nav_label {
+        display: block;
+        cursor: pointer;
+    }
+    body .nav .nav_container .nav_menu .Items {
+        background: #95D7CA;
+        color: #4E3A58
+    }
+    body .nav .nav_container .nav_menu {
+        position: fixed;
+        gap: 22px;
+        top: 60px;
+        bottom: 0;
+        background: #95D7CA;
+        width: 230px;
+        height: 280px;
+        left: 58%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: inset(0 0 100% 100%);
+        transition: clip-path .5s ease-in-out;
+    }
+    body .nav .nav_container .nav_input:checked + .nav_menu {
+        clip-path: inset(0 0 0 0);
+    }
+    body .quiensoy {
+        margin: 85px 64px;
+        padding: 0%;
+    }
+    body .quiensoy .imagen {
+        display: none;
+    }
+    body .Softwares {
+        flex-direction: column;
+        gap: 36px;
+        padding: 124px 98px;
+    }
+    body .Softwares .programas .niveles .nivel > span {
+        border: 12px solid #4E3A58;
+        height: 40px;
+    }
+    body .final {
+        width: 830px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body .nav{
+        height: 94px;
+    }
+    body .nav .nav_container > a > img {
+        width: 49px;
+    }
+    body .nav .nav_container .nav_menu .Items {
+        font-size: 15px;
+    }
+    body .nav .nav_container .nav_menu {
+        width: 132px;
+        height: 219px;
+        top: 60px;
+        left: 53%;
+    }
+    body .quiensoy {
+        margin: 41px 29px;
+    }
+    body .quiensoy .der {
+        gap: 29px;
+    }
+    body .quiensoy .der .arriba > img {
+        width: 146px;
+    }
+    body .quiensoy .der .arriba > h1 {
+        font-size: 40px;
+    }
+    body .quiensoy .der .texto {
+        gap: 15px;
+    }
+    body .quiensoy .der .texto > p {
+        font-size: 15px;
+    }
+    body .habilidades {
+        gap: 35px;
+    }
+    body .habilidades .titulo {
+        font-size: 24px;
+    }
+    body .habilidades .habi {
+        flex-direction: column;
+        gap: 40px;
+    }
+    body .habilidades .habi .izq .valor {
+        gap: 3px;
+    }
+    body .habilidades .habi .izq .valor > h1 {
+        font-size: 16px;
+    }
+    body .habilidades .habi .izq .valor > p {
+        font-size: 16px;
+    }
+    body .habilidades .habi .der .valor {
+        gap: 3px;
+    }
+    body .habilidades .habi .der .valor > h1 {
+        font-size: 16px;
+    }
+    body .habilidades .habi .der .valor > p {
+        font-size: 16px;
+    }
+    body .Softwares {
+        gap: 66px;
+    }
+    body .Softwares .titulo > h3 {
+        font-size: 24px;
+    }
+    body .Softwares .programas {
+        gap: 35px;
+    }
+    body .Softwares .programas .nombres {
+        gap: 28px;
+    }
+    body .Softwares .programas .nombres > h4 {
+        font-size: 16px;
+    }
+    body .Softwares .programas .niveles {
+        gap: 25px;
+    }
+    body .Softwares .programas .niveles .nivel {
+        gap: 6px;
+    }
+    body .Softwares .programas .niveles .nivel > span {
+        border: 8px solid #4E3A58;
+        height: 25px;
+    }
+    body .final {
+        width: 360px;
+        padding: 17px 0px;
+    }
+    body .final .titulo > h5 {
+        font-size: 16px;
+    }
+    body .final .iconos {
+        gap: 20px;
+    }
+    body .final .iconos > a > img {
+        width: 30px;
+    }
+}

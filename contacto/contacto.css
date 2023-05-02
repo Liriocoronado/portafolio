@@ -1,0 +1,267 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #4E3A58;
+}
+
+body .nav{
+    background: #4E3A58;
+    height: 227px;
+}
+
+body .nav .nav_container > a > img {
+    width: 72px;
+}
+
+body .nav .nav_container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex
+}
+
+body .nav .nav_container .nav_label {
+    display: none;
+}
+
+body .nav .nav_container .nav_input {
+    display: none;
+}
+
+body .nav .nav_container .nav_menu {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 138px;
+}
+
+body .nav .nav_container .nav_menu .Items {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+body .titulo {
+    background: #95D7CA;
+    padding: 35px 566px;
+}
+
+body .titulo > h1 {
+    font-size: 60px;
+    background: none;    
+    color: #4E3A58;
+    text-align: center;
+}
+
+body .ligas {
+    display: flex;
+    gap: 333px;
+    justify-content: center;
+    padding: 181px 391px;
+}
+
+body .ligas .visita {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 34px;
+}
+
+body .ligas .visita > h2 {
+    font-size: 60px;
+    color: #ffff;
+}
+
+body .ligas .visita > a > img {
+    width: 352px;
+    border-radius: 294px;
+}
+
+body .contactos {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 203px 402px;
+    margin-top: 0%;
+    padding: 105px 207px;
+    background-color: #95D7CA;
+    gap: 48px;
+    justify-content: center;
+}
+
+body .contactos .cuadro > h2 {
+    font-size: 60px;
+    color: #4E3A58;
+    background: #95D7CA;
+}
+
+body .contactos .liga {
+    background: #95D7CA;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 39px;
+}
+
+body .contactos .liga .con {
+    display: flex;
+    background: #95D7CA;
+    gap: 34px;
+}
+
+body .contactos .liga .con > img {
+    background: #95D7CA;
+    width: 63px;
+    height: auto;
+}
+
+body .contactos .liga .con > a {
+    background: #95D7CA;
+    color: #000000;
+    font-size: 24px;
+}
+
+body .contactos .liga .con > p {
+    background: #95D7CA;
+    color: #000000;
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 1366px) {
+     body .Menuinicio {
+        display: flex;
+        width: 1366px;
+        gap: 420px;
+        justify-content: center;
+    }
+    body .titulo {
+        padding: 34px 333px;
+    }
+    body .ligas {
+        gap: 249px;
+    }
+    body .contactos {
+        margin: 128px 125px;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    body .nav{
+        height: 136px;
+    }
+    body .nav .nav_container .nav_label {
+        display: block;
+        cursor: pointer;
+    }
+    body .nav .nav_container .nav_menu .Items {
+        background: #95D7CA;
+        color: #4E3A58
+    }
+    body .nav .nav_container .nav_menu {
+        position: fixed;
+        gap: 22px;
+        top: 60px;
+        bottom: 0;
+        background: #95D7CA;
+        width: 230px;
+        height: 280px;
+        left: 58%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        clip-path: inset(0 0 100% 100%);
+        transition: clip-path .5s ease-in-out;
+    }
+    body .nav .nav_container .nav_input:checked + .nav_menu {
+        clip-path: inset(0 0 0 0);
+    }
+    body .titulo {
+        padding: 31px 266px;
+    }
+    body .titulo > h1 {
+        font-size: 32px;
+    }
+    body .ligas { 
+        padding: 75px 80px;
+        gap: 139px;
+    }
+    body .ligas .visita > h2 {
+        font-size: 32px;
+    }
+    body .ligas .visita > a > img {
+        width: 243px;
+    }
+    body .contactos {
+        margin: 0px 55px 98px 55px;
+        padding: 62px 0px;
+        width: 720px;
+    }
+    body .contactos .cuadro > h2 {
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body .nav{
+        height: 94px;
+    }
+    body .nav .nav_container > a > img {
+        width: 49px;
+    }
+    body .nav .nav_container .nav_menu .Items {
+        font-size: 15px;
+    }
+    body .nav .nav_container .nav_menu {
+        width: 132px;
+        height: 219px;
+        top: 60px;
+        left: 53%;
+    }
+    body .titulo {
+        padding: 17px 20px;
+    }
+    
+    body .titulo > h1 {
+        font-size: 21px;
+    }
+    body .ligas { 
+        padding: 42px 46px;
+        gap: 56px;
+    }
+    body .ligas .visita {
+        gap: 20px;
+    }
+    body .ligas .visita > h2 {
+        font-size: 20px;
+    }
+    body .ligas .visita > a > img {
+        width: 97px;
+    }
+    body .contactos {
+        margin: 0;
+        width: 360px;
+        gap: 14px;
+    }
+    body .contactos .cuadro > h2 {
+        font-size: 20px;
+    }
+    body .contactos .liga {
+        gap: 12px;
+        width: 300px;
+    }
+    body .contactos .liga .con {
+        gap: 11px;
+    }
+    body .contactos .liga .con > img {
+        width: 25px;
+    }
+    body .contactos .liga .con > a {
+        font-size: 15px;
+    }
+    body .contactos .liga .con > p {
+        font-size: 15px;
+    }
+
+}
